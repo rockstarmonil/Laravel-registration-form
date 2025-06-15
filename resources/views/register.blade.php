@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container mt-5" style="max-width: 500px;">
-    <h2 class="mb-4 text-center">User Registration</h2>
+    <h2 class="mb-4 text-center">User Registration Form </h2>
     <form method="POST" action="{{ route('register') }}">
       @csrf
       <div class="mb-3">

@@ -20,4 +20,4 @@ Route::get('/otp-verify', function () {
 Route::post('/verify-otp', [RegisterController::class, 'verifyOtp'])->name('verify.otp');
 
 // Resend OTP (POST)
-Route::post( [RegisterController::class, 'sendotp'])->name('resend.otp');
+Route::post('/resend-otp', [RegisterController::class, 'sendotp'])->name('resend.otp');
